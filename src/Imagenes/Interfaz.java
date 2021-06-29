@@ -55,10 +55,10 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabelFondo = new javax.swing.JLabel();
 
@@ -101,11 +101,11 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel1.setText("Valor del dado Jugador 1:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 490, -1, -1));
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 20, 10));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 490, 20, 10));
 
         jLabel3.setText("Valor del dado Jugador 2:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 510, -1, -1));
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 510, 10, 10));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 510, 10, 10));
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 510, -1, -1));
 
         jButton4.setBackground(new java.awt.Color(0, 0, 255));
@@ -162,9 +162,6 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ser_1.jpg"))); // NOI18N
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 380, 80, 80));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ser_1.jpg"))); // NOI18N
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 340, 80, 110));
-
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ser_1.jpg"))); // NOI18N
         getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 80, 90, 130));
 
@@ -176,6 +173,9 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel21.setText("FINAL");
         getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
 
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/serr (1).jpg"))); // NOI18N
+        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, 130, 170));
+
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tablero (3).png"))); // NOI18N
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 570, 400));
 
@@ -186,7 +186,8 @@ public class Interfaz extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       System.exit(0);
+      JOptionPane.showMessageDialog(this, "Regrese pronto");
+        System.exit(0);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 String[] J1 = new String[30];
@@ -209,6 +210,7 @@ int PJ1=1, PJ2=1;
                 String P2 = String.valueOf(PJ2);
                 jLabel5.setText(P2);
                 
+                JOptionPane.showMessageDialog(this, "Dados tirados correctamente");
        // if (PJ1>=30){NJ1[29]="J1";JOptionPane.showMessageDialog(null, "Gano J1");}
         //    PJ1 = 1; PJ2 = 1;}else{NJ1[29]= "J2"; 
                 
@@ -224,10 +226,21 @@ int PJ1=1, PJ2=1;
         
         int e = Integer.parseInt(i);
         Botones.guardar(n, a, i, e);
+        
+        String n1 = txtN2.getText();
+        String a1 = txtA2.getText();
+        String i1 = txtId2.getText();
+        
+        int e1 = Integer.parseInt(i1);
+        Botones.guardar(n1, a1, i1, e1);
+        
+        
+        JOptionPane.showMessageDialog(this, "Datos Guardados de los jugadores");
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 
+        JOptionPane.showMessageDialog(this, "Juego Comenzado");
        // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -280,12 +293,12 @@ int PJ1=1, PJ2=1;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
