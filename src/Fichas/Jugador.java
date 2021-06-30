@@ -43,18 +43,18 @@ public class Jugador extends Fichas {
                 if(contadorSeis == 3) {
                     posicionX = tableroXI;
                     posicionY = tableroYI;
-                    interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" ha sacado 3 veces seguidas 6. Se le enviara al inicio del tablero.");
+                    interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+ nombre +" ha sacado 3 veces seguidas 6. Se le enviara al inicio del tablero.");
                 }
             } else {
                 contadorSeis = 0;
             }
         } else {
             if (movimientos != 6) {
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" no ha sacado un 6. Por lo cual no se mueve. Ya que habia sacado 3 veces 6");
+                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+ nombre +" no ha sacado un 6. Por lo cual no se mueve. Ya que habia sacado 3 veces 6");
                 posicionX = tableroXI;
                 posicionY = tableroYI;
             } else {
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" ha sacado un 6. Ahora se puede mover");
+                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+ nombre +" ha sacado un 6. Ahora se puede mover");
                 contadorSeis = 0;
             }
         }
