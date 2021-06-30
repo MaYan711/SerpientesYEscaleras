@@ -122,7 +122,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="670" y="510" width="10" height="10"/>
+          <AbsoluteConstraints x="660" y="510" width="10" height="10"/>
         </Constraint>
       </Constraints>
     </Component>

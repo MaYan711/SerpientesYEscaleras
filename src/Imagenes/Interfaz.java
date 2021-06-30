@@ -105,7 +105,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel3.setText("Valor del dado Jugador 2:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 510, -1, -1));
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 510, 10, 10));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 510, 10, 10));
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 510, -1, -1));
 
         jButton4.setBackground(new java.awt.Color(0, 0, 255));
