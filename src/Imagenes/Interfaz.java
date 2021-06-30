@@ -59,6 +59,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabelFondo = new javax.swing.JLabel();
 
@@ -175,6 +176,9 @@ public class Interfaz extends javax.swing.JFrame {
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/serr (1).jpg"))); // NOI18N
         getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 300, 110, 150));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Pieza (2).jpg"))); // NOI18N
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 370, 70, 70));
 
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tablero (3).png"))); // NOI18N
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 570, 400));
@@ -293,6 +297,7 @@ int PJ1=1, PJ2=1;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
