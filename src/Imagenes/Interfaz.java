@@ -186,7 +186,7 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 80, 240));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Pieza (2).jpg"))); // NOI18N
-        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 320, 70, 70));
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 320, 70, 70));
 
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tablero (3).png"))); // NOI18N
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 570, 400));

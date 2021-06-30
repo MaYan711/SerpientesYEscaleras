@@ -19,7 +19,6 @@ public class Jugador {
         this.nombre = "";
         this.apellido = "";
     }
-
     
     
     public int getId() {

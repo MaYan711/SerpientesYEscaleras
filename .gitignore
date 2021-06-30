@@ -1,4 +1,5 @@
 *.class
-./target
-*.txt
 *.jar
+*.mf
+nbproject
+/build/
